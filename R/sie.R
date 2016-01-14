@@ -1,9 +1,9 @@
-setClass("sie", 
+setClass("sie",
     contains = "mle",
     representation(S="numeric", A="numeric"))
 
-sie <- 
-function(S, A, method = "Nelder-Mead", ...) 
+sie <-
+function(S, A, method = "Nelder-Mead", ...)
 {
 #    require(stats4)
     sietfun <- function(T) {
@@ -32,14 +32,14 @@ function(S, A, method = "Nelder-Mead", ...)
     res
 }
 
-sieplot <- 
-function(x, add = FALSE, ...) 
+sieplot <-
+function(x, add = FALSE, ...)
 {
     if (!inherits(x, "sie"))
         stop("'sie' class expected")
     logA <- log(x@A)
     logS <- log(x@S + 0.5)
-    cfs <- coef(x)
+    cfs <- x@coef
     xx <- c(min(logA), cfs["T"], max(logA))
     yy <- c(cfs["logc"], cfs["logc"], cfs["logc"]+cfs["z"]*(max(logA)-cfs["T"]))
     names(xx) <- names(yy) <- NULL
@@ -48,4 +48,3 @@ function(x, add = FALSE, ...)
     lines(xx, yy)
     invisible(cbind(x=xx,y=yy))
 }
-
