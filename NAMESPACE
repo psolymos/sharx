@@ -2,7 +2,10 @@ importFrom(Formula, Formula)
 importFrom(dcmle, dcmle, makeDcFit)
 importFrom(dclone, dcdim)
 importFrom(stats4, mle)
-importFrom(methods, show)
+importFrom(methods, show, as)
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "coef", "lm", "logLik", "model.matrix",
+    "model.response", "optimize")
 
 export(hsarx, sie, sieplot)
 exportClasses(hsarx, sie)
