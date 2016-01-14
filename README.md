@@ -1,8 +1,10 @@
 # sharx: Models and Data Sets for the Study of Species-Area Relationships
 
-Data sets and SAR, SARX, HSAR and HSARX
-models as described in Solymos and Lele
-(2012, _GEB_ **21**, 109-120).
+Hierarchical models for the analysis of species-area 
+relationships (SARs) by combining several data sets and covariates; 
+with a global data set combining individual SAR studies; 
+as described in Solymos and Lele 
+(2012, _Global Ecology and Biogeography_ **21**, 109-120)
 
 ## Versions
 
