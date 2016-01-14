@@ -10,7 +10,8 @@ Description: Data sets and SAR, SARX, HSAR and HSARX
   (2012, GEB 21, 109-120).
 Depends: methods, stats4, Formula, dcmle, dclone
 SystemRequirements: jags (>= 1.0.3)
-URL: http://dcr.r-forge.r-project.org/
+URL: https://github.com/psolymos/sharx
+BugReports: https://github.com/psolymos/sharx/issues
 License: GPL-2
 LazyLoad: yes
 LazyData: true
