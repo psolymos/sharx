@@ -1,6 +1,6 @@
-importFrom(Formula)
-importFrom(dcmle)
-importFrom(dclone)
+importFrom(Formula, Formula)
+importFrom(dcmle, dcmle, makeDcFit)
+importFrom(dclone, dcdim)
 importFrom(methods)
 importFrom(stats4, mle)
 

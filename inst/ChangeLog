@@ -1,5 +1,8 @@
 sharx package version history
 
+Version 1.0-5, Jan 12, 2016
+    * Namespace changes: no more empty import fields.
+
 Version 1.0-4, May 19, 2014
     * Namespace and ::: cleanup to satisfy R 3.0.2 check.
 
