@@ -2,6 +2,7 @@ importFrom(Formula, Formula)
 importFrom(dcmle, dcmle, makeDcFit)
 importFrom(dclone, dcdim)
 importFrom(stats4, mle)
+importFrom(methods, show)
 
 export(hsarx, sie, sieplot)
 exportClasses(hsarx, sie)
