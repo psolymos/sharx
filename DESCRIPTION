@@ -8,8 +8,7 @@ Maintainer: Peter Solymos <solymos@ualberta.ca>
 Description: Data sets and SAR, SARX, HSAR and HSARX 
   models as described in Solymos and Lele 
   (2012, GEB 21, 109-120).
-Depends: stats4, Formula, dcmle, dclone
-Imports: methods
+Depends: methods, stats4, Formula, dcmle, dclone
 SystemRequirements: jags (>= 1.0.3)
 URL: https://github.com/psolymos/sharx
 BugReports: https://github.com/psolymos/sharx/issues
