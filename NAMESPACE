@@ -1,7 +1,6 @@
 importFrom(Formula, Formula)
 importFrom(dcmle, dcmle, makeDcFit)
 importFrom(dclone, dcdim)
-importFrom(methods)
 importFrom(stats4, mle)
 
 export(hsarx, sie, sieplot)
