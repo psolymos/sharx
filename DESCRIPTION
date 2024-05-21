@@ -3,7 +3,7 @@ Type: Package
 Title: Models and Data Sets for the Study of Species-Area Relationships
 Version: 1.0-6
 Date: 2024-05-20
-Author: Peter Solymos
+Author: Peter Solymos [cre, aut] (<https://orcid.org/0000-0001-7337-1740>)
 Maintainer: Peter Solymos <psolymos@gmail.com>
 Description: Hierarchical models for the analysis of species-area 
   relationships (SARs) by combining several data sets and covariates; 
