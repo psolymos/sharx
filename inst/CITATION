@@ -1,6 +1,6 @@
 citHeader("To cite 'sharx' in publications use\nwith package version number:")
 
-citEntry(entry = "Article",
+bibentry(entry = "Article",
   title        = "Global pattern and local variation in species-area relationships",
   author       = personList(as.person("P\\'{e}ter S\\'{o}lymos"),
                  as.person("Subhash R Lele")),
@@ -8,11 +8,13 @@ citEntry(entry = "Article",
   year         = "2012",
   volume       = "21",
   pages        = "109--120",
+  url          = " https://doi.org/10.1111/j.1466-8238.2011.00655.x"
 
   textVersion  =
-  paste("Solymos, P and Lele, S R (2012).",
+    paste("Solymos, P and Lele, S R (2012).",
         "Global pattern and local variation in species-area relationships.",
-        "Global Ecology and Biogeography 21, 109-120.")
+        "Global Ecology and Biogeography 21, 109-120.",
+        "URL https://doi.org/10.1111/j.1466-8238.2011.00655.x")
 )
 
 

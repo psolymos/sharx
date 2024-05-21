@@ -1,5 +1,9 @@
 sharx package version history
 
+Version 1.0-6, May 20, 2024
+    * Maintainer email change.
+    * Add URL to citation and DOI to package description.
+
 Version 1.0-5, Jan 12, 2016
     * Namespace changes: no more empty import fields.
 
