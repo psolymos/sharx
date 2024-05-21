@@ -2,7 +2,7 @@ citHeader("To cite 'sharx' in publications use\nwith package version number:")
 
 bibentry(bibtype = "Article",
   title        = "Global pattern and local variation in species-area relationships",
-  author       = personList(as.person("P\\'{e}ter S\\'{o}lymos"),
+  author       = c(as.person("P\\'{e}ter S\\'{o}lymos"),
                  as.person("Subhash R Lele")),
   journal      = "Global Ecology and Biogeography",
   year         = "2012",
